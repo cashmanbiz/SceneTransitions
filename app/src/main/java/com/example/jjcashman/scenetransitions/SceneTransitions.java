@@ -34,11 +34,11 @@ public class SceneTransitions extends ActionBarActivity {
     }
 
     public void goToScene1(View view){
-        TransitionManager.go(scene2);
+        TransitionManager.go(scene2, transitionMgr);
     }
 
     public void goToScene2(View view){
-        TransitionManager.go(scene1);
+        TransitionManager.go(scene1,transitionMgr);
     }
 
     @Override
